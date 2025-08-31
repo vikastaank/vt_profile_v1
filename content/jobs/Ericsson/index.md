@@ -1,7 +1,7 @@
 ---
 date: '2020-04-15'
 title: 'Sr. Sofware Developer'
-company: 'Ericsson India'
+company: 'Ericsson'
 location: 'Noida, Sec-62'
 range: 'Nov 2019 - Apr 2020'
 url: ''

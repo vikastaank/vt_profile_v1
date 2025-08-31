@@ -60,13 +60,16 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Vikas Taank,</h2>;
-  const three = <h3 className="big-heading">I build web-applications, develop scalable products.</h3>;
+  const two = <h2 className="big-heading">Vikas Taank.</h2>;
+  const three = (
+    <h3 className="big-heading">I build web-applications, develop scalable products.</h3>
+  );
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building backend applications on microservice architecture, I have been working to develop scalable & reliable microservices.
-        Currently focusing on building financial utility products & growing at{' '}
+        I’m a software engineer specializing in building backend applications on microservice
+        architecture, I have been working to develop scalable & reliable microservices. Currently
+        focusing on building financial utility products & growing at{' '}
         <a href="https://www.ameriprise.com/" target="_blank" rel="noreferrer">
           Ameriprise Financial
         </a>
@@ -74,17 +77,18 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href=""
-      target="_blank"
-      rel="noreferrer">
-      Will post some link here soon!
-    </a>
-  );
+  // const five = (
+  //   <a
+  //     className="email-link"
+  //     href=""
+  //     target="_blank"
+  //     rel="noreferrer">
+  //     Will post some link here soon!
+  //   </a>
+  // );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

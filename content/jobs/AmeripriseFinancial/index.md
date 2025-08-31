@@ -1,5 +1,5 @@
 ---
-date: ''
+date: '2025-08-31'
 title: 'Lead Engineer'
 company: 'Ameriprise Financial'
 location: 'Noida, Sec-144'

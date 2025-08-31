@@ -1,7 +1,7 @@
 ---
 date: '2023-03-27'
 title: 'Sr Member of Technical Staff'
-company: 'Lambda Test'
+company: 'LambdaTest'
 location: 'Noida, Sec-62'
 range: 'Aug 2020 - Mar 2023'
 url: ''

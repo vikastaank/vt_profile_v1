@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 1000px;
 
   .inner {
     display: flex;
@@ -176,6 +176,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              moreDetail
               location
               range
               url
@@ -273,7 +274,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, moreDetail, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -294,6 +295,7 @@ const Jobs = () => {
                       </span>
                     </h3>
 
+                    <p className="moreDetail">{moreDetail}</p>
                     <p className="range">{range}</p>
 
                     <div dangerouslySetInnerHTML={{ __html: html }} />

@@ -1,7 +1,7 @@
 ---
 date: '2023-12-31'
 title: 'Lead Developer'
-company: 'Syngenta (worked here on remittance basis)'
+company: 'Syngenta'
 location: 'Pune'
 range: 'Mar 2023 - Dec 2023'
 url: ''

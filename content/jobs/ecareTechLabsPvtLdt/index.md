@@ -1,7 +1,8 @@
 ---
 date: '2019-11-21'
 title: 'Sr. Software Developer'
-company: 'HashStudioz Technologies Pvt Ltd erstwhile ecare Technology Labs Pvt Ltd'
+company: 'HashStudioz'
+moreDetail: 'HashStudioz Technologies Pvt Ltd erstwhile ecare Technology Labs Pvt Ltd'
 location: 'Noida, Sec15'
 range: 'Feb 2016 - Nov 2019'
 url: ''

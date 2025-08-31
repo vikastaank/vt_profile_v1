@@ -57,11 +57,9 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
-      <h2 className="title">Want To Get In Touch</h2>
+      <h2 className="title">Want To Get In Touch?</h2>
 
-      <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-      </p>
+      <p>Although I’m not currently looking for any new opportunities, my inbox is always open.</p>
 
       <a className="email-link" href={`mailto:${email}`}>
         Say Hi over email!

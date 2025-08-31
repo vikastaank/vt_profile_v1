@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Java', 'Golang', 'Python scripts - for automating stuff', 'React', 'SQL Databases', 'Redis', 'AWS', 'Docker', 'K8S'];
+  const skills = [
+    'Java',
+    'Golang',
+    'Python',
+    'React',
+    'SQL Databases',
+    'Redis',
+    'AWS',
+    'Docker',
+    'K8S',
+    'Automation',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -138,10 +149,17 @@ const About = () => {
               Hey! My name is Vikas Taank, always enjoying to build something that works on web.
             </p>
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at {' '} <a href="">a start-up focusing on travel engine</a>,
-              {' '} <a href="">a start-up focusing on testing and automation stuff</a>, and 
-              {' '} <a href="">currently working with a big financial organisation</a>.
-              At my current company, focusing on to build a reliable, efficient & data-intensive web applications for financial industry end users.  
+              Fast-forward to today, and I’ve had the privilege of working at{' '}
+              <a href="https://rezofy.com/">a start-up focusing on travel engine</a>,{' '}
+              <a href="https://www.lambdatest.com/">
+                a start-up focusing on testing and automation stuff
+              </a>
+              , and{' '}
+              <a href="https://www.ameriprise.com/">
+                currently working with a big financial organisation
+              </a>
+              . At my current company, focusing on to build a reliable, efficient & data-intensive
+              web applications for financial industry end users.
             </p>
 
             <p>I've been working with these technologies majorly:</p>

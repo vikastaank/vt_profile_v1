@@ -5,8 +5,8 @@ module.exports = {
     title: 'Vikas Taank',
     description:
       'Vikas Taank is a full stack dev who specializes in building reliable and scalable web-applications.',
-    siteUrl: 'https://thevtdev.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    siteUrl: 'https://vikastaank.github.io/vt_profile_v1',
+    image: '/og.png',
     twitterUsername: '@vtaank24',
   },
   plugins: [
@@ -147,12 +147,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
