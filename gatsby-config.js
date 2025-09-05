@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/vt_profile_v1',
   siteMetadata: {
     title: 'Vikas Taank',
     description:
