@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-archive-js",
+    "path": "/archive/",
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"date":"2023/05/03","title":"ImageCDN","tech":["Golang"],"github":"https://github.com/vikastaank/imagescdn","external":"https://github.com/vikastaank/imagescdn/"},"html":"<p>Sample project for creating an image CDN using using cache.</p>"}}]}},"pageContext":{}},
+    "staticQueryHashes": ["1080914770","1994492073"]}
